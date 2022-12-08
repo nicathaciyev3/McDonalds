@@ -1,0 +1,47 @@
+nav{
+    @media(max-width:768px){
+        display: none;
+    }
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    #menu{
+        .img_logo{
+            display: contents;
+        }
+        .language{
+            ul{
+                display: flex;
+                gap: 50px;
+                margin: 10px 0px;
+                li{
+                    list-style: none;
+                }
+            }
+        }
+       .col-lg-4{
+        display: contents;
+       .button_first{
+        button{
+            background-color: #ffbc0d;
+
+            @include Flexible($widt:150px,$heit:40px,$bordern:none,$bor_r:5px,$marg:10px 0px)
+        }
+       }
+       } 
+       .bottom_menu{
+        ul{
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            display: flex;
+    
+            li{
+                text-decoration: none;
+                list-style: none;
+            }
+        }
+       }
+
+}
+}

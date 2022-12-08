@@ -1,0 +1,7 @@
+@mixin Flexible($widt:null,$heit:null,$bordern:null,$bor_r:null,$marg:null){
+    width: $widt;
+    height: $heit;
+    border: $bordern;
+    border-radius: $bor_r;
+    margin: $marg;
+}

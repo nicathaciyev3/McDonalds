@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Courgette&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@800&family=Poppins:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+nav #menu .img_logo {
+  display: contents;
+}
+nav #menu .language ul {
+  display: flex;
+  gap: 50px;
+  margin: 10px 0px;
+}
+nav #menu .language ul li {
+  list-style: none;
+}
+nav #menu .col-lg-4 {
+  display: contents;
+}
+nav #menu .col-lg-4 .button_first button {
+  background-color: #ffbc0d;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+nav #menu .bottom_menu ul {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+nav #menu .bottom_menu ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+#img .honor .img_foto {
+  margin: 30px 0px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#banner .row {
+  margin: 30px 0px;
+}
+#banner .row .left_side img {
+  width: 100%;
+  height: 314px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#banner h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #292929;
+}
+#banner button {
+  background-color: #ffbc0d;
+  width: 160px;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+}
+
+#name .img_img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#name h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 33px;
+}
+#name button {
+  width: 160px;
+  height: 40px;
+  background-color: #ffbc0d;
+  border: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
